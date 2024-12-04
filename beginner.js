@@ -19,10 +19,27 @@ console.log(addition(3, 5));
 /** QUESTION NUMBER 2
  * Create a function that converts hours into seconds
  * hoursintoSeconds(2) -> 7200
- */
-
-function hoursIntoSeconds(hour) {
+ * 
+ * function hoursIntoSeconds(hour) {
     return hour * 60 * 60
 }
 
 console.log(hoursIntoSeconds(2));
+ * 
+ */
+
+
+/**
+ * QUESTION 3:
+ * Create a function that takes the length and width of a rectangle and 
+ * returns its perimeter.
+ * 
+ * calcPerimeter(6,7) -> 26
+ * 
+ */
+
+function calcPerimeter(length, width) {
+    return length * 2 + width * 2
+}
+
+console.log(calcPerimeter(6, 7))
