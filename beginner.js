@@ -18,7 +18,7 @@ console.log(addition(3, 5));
 
 /** QUESTION NUMBER 2
  * Create a function that converts hours into seconds
- * hoursintoSeconds(10) -> 7200
+ * hoursintoSeconds(2) -> 7200
  */
 
 function hoursIntoSeconds(hour) {
