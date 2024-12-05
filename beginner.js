@@ -189,11 +189,38 @@ console.log(isOdd(2))
  * booleaninteger(1) -> -1
  * booleaninteger(2) -> 1
  * """"""""""""""(5) -> -1
- */
-
-function booleanInteger(num) {
+ * 
+ * function booleanInteger(num) {
  return num % 2 === 0 ? 1 : -1
 }
 
-console.log(booleanInteger())
+console.log(booleanInteger()) 
+ */
 
+
+/**
+ * Question 13:
+ * Create a function that takes in two strings. If the first string is 
+ * equalto 'Logged_IN' AND the second string is equal to 'subscribed'
+ * return true otherwise return false
+ * 
+ * isloggedinandsubscribed('logged_in, subscribed) -> true
+ * 
+ */
+
+function isLoggedInAndSubscribed(string1, string2) {
+    return string1 === "Logged_In" && string2 === "Subscribed" ? true : false;
+}
+
+console.log(isLoggedInAndSubscribed("Logged_In", "Subscribed"))
+
+/**
+ * Question 14
+ * create a function that takes in two strings. If the first string is equal to
+ * logged_in OR the second string is equal to subscribed - return true
+ * other wise return false.
+ * 
+ * for this question its the same as the question above but we are using the
+ * OR operator which is ||
+ * 
+ */
