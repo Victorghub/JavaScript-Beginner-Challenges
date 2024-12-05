@@ -102,11 +102,25 @@ console.log(appEndFrontend("Apple"));
  * Otherwise return false
  * sumGreaterThan100(50,60) -> true
  * 
- * 
- */
-
-function sumGreaterThan100(num1, num2) {
+ * function sumGreaterThan100(num1, num2) {
     return num1 + num2 > 100;
 }
 
-console.log(sumGreaterThan100(60, 50));
+console.log(sumGreaterThan100(60, 40));
+ */
+
+/////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * Question 7:
+ * Write a function that accepts a number and returns true if it is less
+ * than or equal to zero. Otherwise return false.
+ * 
+ * lessthanorequaltozero(3) -> false
+ */
+
+function lessThanOrEqualToZero(number) {
+ return number <= 0
+}
+
+console.log(lessThanOrEqualToZero(0))
