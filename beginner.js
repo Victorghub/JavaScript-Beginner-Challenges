@@ -82,10 +82,23 @@ console.log(calTriangleArea(3, 2))
  * accepts a string
  * adding strings is similar to numbers
  * dont forget to return result
- */
-
-function appEndFrontend(string) {
+ * 
+ * 
+ * 
+ * function appEndFrontend(string) {
     return string + "FrontEnd"
 }
 
 console.log(appEndFrontend("Apple"));
+ * 
+ * 
+ */
+
+//////////////////////////////////////////////////////////////////////////
+
+/**
+ * QUESTION 6:
+ * 
+ * 
+ * 
+ */
