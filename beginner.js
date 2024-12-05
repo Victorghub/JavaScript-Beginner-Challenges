@@ -132,11 +132,28 @@ console.log(lessThanOrEqualToZero(0))
  * Question 8:
  * Given a boolean (true or false), return the opposite boolean
  * oppositeboolean(true) -> false
- */
-
+ * 
+ * 
 function oppositeBoolean(opp) {
     return !opp;
 }
 
 console.log(oppositeBoolean(true));
+ */
+
+/////////////////////////////////////////////////////////////
+
+/**
+ * Question 9:
+ * Given ANY element, return true if it is NOT the number 0.
+ * 
+ * 
+ * function isNotZero(num) {
+    return num !== 0
+}
+console.log(isNotZero(0))
+ */
+
+
+
 
