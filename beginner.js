@@ -98,7 +98,15 @@ console.log(appEndFrontend("Apple"));
 
 /**
  * QUESTION 6:
- * 
+ * Given two numbers, return true if the sum of both numbers is greater than 100.
+ * Otherwise return false
+ * sumGreaterThan100(50,60) -> true
  * 
  * 
  */
+
+function sumGreaterThan100(num1, num2) {
+    return num1 + num2 > 100;
+}
+
+console.log(sumGreaterThan100(60, 50));
