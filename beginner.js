@@ -154,6 +154,18 @@ console.log(oppositeBoolean(true));
 console.log(isNotZero(0))
  */
 
+//////////////////////////////////////////////////////////////////
 
+/**
+ * Question 10:
+ * Given two numbers return their remainder when divided by each other.
+ * 
+ * calcRemainder(4, 2) -> 0
+ */
 
+function calcRemainder(num1, num2) {
+    return num1 % num2
+}
+
+console.log(calcRemainder(9, 8))
 
