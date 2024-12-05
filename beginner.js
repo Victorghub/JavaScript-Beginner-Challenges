@@ -175,10 +175,25 @@ console.log(calcRemainder(9, 8))
  * Question 11:
  * Given two numbers, return true if the number is odd. 
  * isOdd(1) -> True
- */
-
-function isOdd(num1) {
+ * 
+ * function isOdd(num1) {
     return num1 % 2 === 0
 }
 console.log(isOdd(2))
+ */
+
+/**
+ * Question 12: Create a function that takes a number argument and returns 1
+ * if the number is even. If the number is odd return -1.
+ * 
+ * booleaninteger(1) -> -1
+ * booleaninteger(2) -> 1
+ * """"""""""""""(5) -> -1
+ */
+
+function booleanInteger(num) {
+ return num % 2 === 0 ? 1 : -1
+}
+
+console.log(booleanInteger())
 
