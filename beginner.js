@@ -117,10 +117,26 @@ console.log(sumGreaterThan100(60, 40));
  * than or equal to zero. Otherwise return false.
  * 
  * lessthanorequaltozero(3) -> false
- */
-
-function lessThanOrEqualToZero(number) {
+ * 
+ * 
+ * function lessThanOrEqualToZero(number) {
  return number <= 0
 }
 
 console.log(lessThanOrEqualToZero(0))
+ */
+
+/////////////////////
+
+/**
+ * Question 8:
+ * Given a boolean (true or false), return the opposite boolean
+ * oppositeboolean(true) -> false
+ */
+
+function oppositeBoolean(opp) {
+    return !opp;
+}
+
+console.log(oppositeBoolean(true));
+
