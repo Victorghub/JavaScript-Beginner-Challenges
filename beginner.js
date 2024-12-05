@@ -161,11 +161,24 @@ console.log(isNotZero(0))
  * Given two numbers return their remainder when divided by each other.
  * 
  * calcRemainder(4, 2) -> 0
- */
-
-function calcRemainder(num1, num2) {
+ * 
+ * function calcRemainder(num1, num2) {
     return num1 % num2
 }
 
 console.log(calcRemainder(9, 8))
+ */
+
+////////////////////////////////////////////
+
+/**
+ * Question 11:
+ * Given two numbers, return true if the number is odd. 
+ * isOdd(1) -> True
+ */
+
+function isOdd(num1) {
+    return num1 % 2 === 0
+}
+console.log(isOdd(2))
 
