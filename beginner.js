@@ -28,6 +28,8 @@ console.log(hoursIntoSeconds(2));
  * 
  */
 
+///////////////////////////////////////////////////////////////////////////////////
+
 
 /**
  * QUESTION 3:
@@ -36,10 +38,54 @@ console.log(hoursIntoSeconds(2));
  * 
  * calcPerimeter(6,7) -> 26
  * 
- */
-
-function calcPerimeter(length, width) {
-    return length * 2 + width * 2
+ * function hoursIntoSeconds(hour) {
+    return hour * 60 * 60
 }
 
-console.log(calcPerimeter(6, 7))
+console.log(hoursIntoSeconds(2));
+ * 
+ */
+
+
+////////////////////////////////////////////////////////////////
+
+/**
+ * QUESTION 4:
+ * Write a function that takes the base and height of a triangle and return 
+ * its area. 
+ * 
+ * calTriangleArea(3,2) -> 3
+ * 
+ * - Take in two arguments, base + height
+ * - Formula to calculate area is 0.5 * base * height
+ * - Return the answer and console.log it
+ * 
+ * function calTriangleArea(base, height) {
+  return 0.5 * base * height
+}
+
+console.log(calTriangleArea(3, 2))
+ * 
+ * 
+ * 
+ */
+
+
+/////////////////////////////////////////////////////////////////////
+
+/***
+ * QUESTION 5: 
+ * Write a function that accepts a string and adds 'Frontend' onto the end of it
+ * 
+ * appendFrontend("apple") -> applefrontend
+ * 
+ * accepts a string
+ * adding strings is similar to numbers
+ * dont forget to return result
+ */
+
+function appEndFrontend(string) {
+    return string + "FrontEnd"
+}
+
+console.log(appEndFrontend("Apple"));
